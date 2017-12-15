@@ -235,6 +235,10 @@ tt {
 	background: $color-gray-90;
 }
 
+.highlight pre code {
+	color: #fff;
+}
+
 pre {
 	margin: 2em auto;
 	width: 100%;

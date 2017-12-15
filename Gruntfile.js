@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             ],
             'cssDependencies': [
                 'bower_components/normalize.css/normalize.css',
-                'bower_components/highlightjs/styles/default.css',
+                // 'bower_components/highlightjs/styles/default.css',
                 'bower_components/nprogress/nprogress.css'
             ]
         },
