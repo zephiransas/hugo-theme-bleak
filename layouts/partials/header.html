@@ -16,6 +16,10 @@
         {{ range .Params.tags }}<meta property="og:article:tag" content="{{ . }}" />
         {{ end }}
 
+        {{ if .Params.image }}
+        <meta property="og:image" content="{{ .Params.image | absURL }}" />
+        {{ end }}
+
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@{{ .Site.Params.author.twitter }}" />
         <meta name="twitter:creator" content="@{{ .Site.Params.author.twitter }}" />
